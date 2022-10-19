@@ -1,0 +1,311 @@
+.container1{
+        display: flex;
+        justify-content:space-around ;
+        box-shadow:10px white;
+        width: 100%;
+
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+#icon{
+    color: blue;
+}
+#iconz{
+    color: green;
+}
+#iconx{
+    color: white;
+}
+/* .navbar{color: gray;} */
+
+.top a{display: flex;}
+button{
+     /* margin-left: 90px;
+    margin-right: 90px; */
+    /* width: 200px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* height: 40px; */
+    padding: 10px 40px ;
+    border-radius: 10px;
+background-color: orange;
+     color: white;
+     font-size: 20px;
+}
+
+.container1 img { width: 120px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.container1 ul{ display: flex;
+                justify-content: space-between;
+                background-color: black;
+                margin: 0%;
+                text-decoration: none;
+                list-style-type: none;
+
+
+}
+
+
+.container2 ul li{margin-top: 50px;
+                    margin-bottom: 20px;
+
+}
+
+.container2{
+    background-color:black ;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+.container3{
+   height: 20x;
+    
+    
+
+}
+.card_2{
+    /* background-color: white; */
+    height: 200px;
+    /* border-color:red; */
+    border: solid 5px;
+    color: black;
+    position: relative;
+    width: 700px;
+    height: 300px;
+    
+}
+.box_1 { 
+     background-color:orange;
+     height: 400px;
+     width: 800px;
+    border: none;
+    padding: 10px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.box_2 { 
+     background-color:white;
+     height: 400px;
+    width: 800px;
+    border: none;
+    padding: 10px;
+    z-index: 2;
+    top: 10px;
+    left: 10px;
+    transform: rotate(3deg);
+    border-radius: 10px;
+    position: absolute;
+}
+
+.textboard{
+    position: relative;
+
+}
+
+.message{
+text-align: center;
+color: black;
+position: relative;
+top: 0;
+bottom: 10px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 30px;
+transform: rotate(-3deg);
+opacity: 0.7;
+padding-top: 30px;
+margin-bottom: 50px;
+
+}
+
+.sign_up_text{
+    font-size: 30px;
+    transform: rotate(-3deg);
+    text-align: center;    
+
+}
+#Sign_Up{
+    /* position: absolute; */
+    transform: rotate(-3deg); 
+    right: 1px;
+
+}
+
+
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+    border-radius: 10px 0px 0px 10px;
+    /* position: absolute; */
+    /* left: 50px; */
+    }
+    
+    /* Style the submit button */
+    form.example button {
+    /* float: right; */
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+    /* position: absolute; */
+    /* right: -10px; */
+    
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+    }
+    
+    form.example button:hover {
+    background: #0b7dda;
+    }
+    
+    /* Clear floats */
+    form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+         /* stop */
+    
+         @media(max-width: 390px) {
+            .form.example button{
+                width: inherit
+            }
+            .box{
+                height: inherit;
+            }
+         }
+    
+
+.card_1 img{
+
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 80px;
+    /* opacity: 0.7; */
+    
+}  
+/* .card_1{ 
+    background-image:
+     linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url("/images/p_blackwidow.jpeg");
+    width: 00px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 700px;
+    min-width: 400px;
+}*/
+.card_2{
+    width: 50%;
+    margin-top: 20px;
+}
+
+body{
+    background-color: black;
+}
+.back img{
+    width:100%;
+    height: 700px;
+    z-index: 1;
+    position: relative;
+}
+.messagebox{
+    background-color:transparent ;
+        height: 200px;
+        margin: auto;
+        width: 40%;
+        /* border:solid 2px ; */
+        border-radius: 50px;
+        border-color:white;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 10%;
+        color: white;
+        z-index: 2;
+        
+    }
+    #Home{
+        bottom: 600px;
+        position: absolute;
+        color: orange;
+    }
+    #Services{
+        position: absolute;
+        bottom: 600px;
+        right: 50px;
+        color: orange;
+
+    }
+    #About{
+        position: absolute;
+        bottom: 150px;
+        right: 1000px;
+        color: orange;
+
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-around;
+    }
+footer a{
+   color: white;
+   text-decoration: none;
+}
+footer img{
+    width: 200px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+ .text {
+    color: white;
+    font-size: 30px;
+}
+.footer_logo{
+    margin-top: 40px;
+}
+.footer_icons{
+    
+    margin-top: 40px;
+    size: 40px;
+    font-size: 30px;
+   color: orange;
+}
+
+p{color: gray;
+
+font-size: 25px;}
+hr{
+    width: auto;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: orange;
+    border-width:10px ;
+    width: 100%;
+}
+

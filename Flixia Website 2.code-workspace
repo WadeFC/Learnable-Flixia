@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Flixia Website"
+		},
+		{
+			"path": "../../../Work Space Alpha/how to build/how to build card with video"
+		},
+		{
+			"path": "../../../Work Space Alpha/TutsNode"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Flixia Website 2"
+	}
+}
