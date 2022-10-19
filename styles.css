@@ -3,6 +3,7 @@
         justify-content:space-around ;
         box-shadow:10px white;
         width: 100%;
+        margin-top: 30px;
 
 }
 .top{
@@ -12,14 +13,20 @@
 }
 #icon{
     color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #iconz{
     color: green;
+    margin-right: 10px;
 }
 #iconx{
     color: white;
 }
 /* .navbar{color: gray;} */
+.navbar ul {
+    margin-left: -5px;
+}
 
 .top a{display: flex;}
 button{
@@ -29,7 +36,7 @@ button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* height: 40px; */
     padding: 10px 40px ;
-    border-radius: 10px;
+    border-radius: 90px;
 background-color: orange;
      color: white;
      font-size: 20px;
@@ -64,10 +71,7 @@ background-color: orange;
     margin-bottom: 50px;
 }
 .container3{
-   height: 20x;
-    
-    
-
+   
 }
 .card_2{
     /* background-color: white; */
@@ -83,27 +87,28 @@ background-color: orange;
 .box_1 { 
      background-color:orange;
      height: 400px;
-     width: 800px;
+     width: 600px;
     border: none;
     padding: 10px;
     z-index: 1;
     top: 0;
     left: 0;
     border-radius: 10px;
-    margin-left: 10px;
+    margin-left: 70px;
 }
 .box_2 { 
      background-color:white;
      height: 400px;
-    width: 800px;
+    width: 600px;
     border: none;
     padding: 10px;
     z-index: 2;
     top: 10px;
-    left: 10px;
+    left: 50px;
     transform: rotate(3deg);
     border-radius: 10px;
     position: absolute;
+    margin-left: 20px;
 }
 
 .textboard{
@@ -204,7 +209,7 @@ form.example input[type=text] {
     width: 700px;
     border-radius: 10px;
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 40px;
     /* opacity: 0.7; */
     
 }  
@@ -250,21 +255,21 @@ body{
         
     }
     #Home{
-        bottom: 600px;
+        bottom: -100px;
         position: absolute;
         color: orange;
     }
     #Services{
         position: absolute;
-        bottom: 600px;
+        bottom: -100px;
         right: 50px;
         color: orange;
 
     }
     #About{
         position: absolute;
-        bottom: 150px;
-        right: 1000px;
+        bottom: -730px;
+        right: 450px;
         color: orange;
 
     }
@@ -278,7 +283,7 @@ footer a{
    text-decoration: none;
 }
 footer img{
-    width: 200px;
+    width: 150px;
     border-radius: 30px;
     margin-left: 20px;
 }
@@ -287,13 +292,14 @@ footer img{
     font-size: 30px;
 }
 .footer_logo{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .footer_icons{
     
     margin-top: 40px;
-    size: 40px;
-    font-size: 30px;
+    /* size: 10px; */
+    font-size: 15px;
+    margin-left: 10px;
    color: orange;
 }
 
@@ -305,7 +311,10 @@ hr{
     border-style: none;
     border-top-style: dotted;
     border-color: orange;
-    border-width:10px ;
+    border-width:4px ;
     width: 100%;
+}
+.divide{
+    height: 100px;
 }
 
